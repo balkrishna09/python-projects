@@ -20,7 +20,7 @@ while a==0:
     if option =='yes':
         text=input('enter text- ')
         shift=int(input('enter no of shift you want- '))
-        alphabet=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+        alphabet=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','a']
         choose=input('what you want encrypt or decrypt -')
         if choose=='encrypt':
             encryption(text_to_encrypt=text,shift_no=shift)
@@ -30,14 +30,3 @@ while a==0:
             print('choose right option')
     else:
         a+=1
-        
-        
-    
-    
-
-    
-
-
-    
-    
-    
