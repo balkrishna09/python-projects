@@ -46,5 +46,3 @@ while a==0:
             print('choose right option')
     else:
         a+=1
-
-timepass revert test
