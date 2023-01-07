@@ -1,3 +1,5 @@
+def Branch_A():
+    print('I am in branch-A')
 def encryption(text_to_encrypt, shift_no):
     cipher=''
     for letter in text_to_encrypt:
