@@ -1,6 +1,16 @@
+
 # Git commit to branch C
 def Branch_c():
     print('I am in branch-C')
+
+
+
+
+
+# Git commit to branch A
+def Branch_A():
+    print('I am in branch-A')
+
 
 
 
